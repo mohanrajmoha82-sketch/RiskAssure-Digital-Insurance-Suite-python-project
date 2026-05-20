@@ -201,8 +201,8 @@ def login2():
     t.sleep(1)
     OTP = rd.randrange(1234, 5678)
     print("OTP:",OTP)
-    # pk.sendwhatmsg_instantly(f"+91 {mobile8}", f"{OTP}")
-    # pg.doubleClick()
+    pk.sendwhatmsg_instantly(f"+91 {mobile8}", f"{OTP}")
+    pg.doubleClick()
     OTP1 = int(input("Enter the OTP* :"))
     if OTP1 == OTP:
         t.sleep(3)
