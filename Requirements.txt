@@ -1,0 +1,6 @@
+pip install pygame
+pip install pywhatkit
+pip install pyautogui
+pip install pandas
+pip install qrcode
+pip install pillow
